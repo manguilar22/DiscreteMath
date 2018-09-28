@@ -1,2 +1,2 @@
-# DiscreteMath_Project
-Discrete Math 
+# Discrete Math Project
+
