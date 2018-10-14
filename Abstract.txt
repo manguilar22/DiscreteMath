@@ -1,0 +1,11 @@
+Manuel Aguilar
+Alejandro Sanchez
+
+Cryptosystems and Hash Functions
+
+Abstract
+
+
+	Cryptosystems have a rich history of conclealintrying  messages with sensitive information. From the days of ancient italy, under Julius Ceaser reign. The Allies in World War II trying to decipher th Axis communications. To modernday message relaying; our emails, bank account and social media. Cryptosystems surrond every business aspect od tghe world wide web , that requires trust and company integrity.
+	However, cryptosystems make up a huge part of the eco-system of the web; they are based on theormes in mathematics. Diffrent mathematical tecqnues are applied to make cryptosystems and to ensure security. This is known as a hash fucntion. In the past, ciphers were to be written with paper and pen. This is no longer the case in the modern world were the power of computing is exponential and growing. Computers, are used in the research and development of new cryptostytems and hash functions. 
+	Mathematica, is a programming language with many keywords that support the research and development of cryptosystems in research. Mathematica, will also give the oppurtunity to transform data in diffrent formats to expose diffrent ideas in cryptography.    
