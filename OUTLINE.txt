@@ -47,7 +47,7 @@ Discrete Math Project
 	> Modern Cryptography @ McGraw Hill
 	> Hands-On: Mathematica
 	> Demystfying: Discrete Mathematics
-	> { online: [ ...wolfram documentation,
+	> { online: [ ...wolfram documentation,			https://reference.wolfram.com/language/guide/DataVisualization.html,
 								https://reference.wolfram.com/language/guide/GraphProgramming.html,
 								https://reference.wolfram.com/language/guide/ComputationOnGraphs.html,
 								https://reference.wolfram.com/language/guide/GraphsAndMatrices.html,
