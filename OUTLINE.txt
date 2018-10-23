@@ -10,17 +10,17 @@ Discrete Math Project
 	> Prime Numbers and the relationship with hashing.
 
 * Mathematics
-	> Congruences, Clock Arehemitic. 
+	> Congruences, Clock Arehemitic.
 	> Explain, how all these topics have something in common with each other.
 	> "Demystfying: Mathematics"
 		(Chapter 7: Matrices {What is a matrix, Fundamental Operations on Matrices})
-			> Matrices were invented by Arthur Cayley (1821-1895), which he personally thought were useless at the time. Fortunately, for Arthur matrices are used in many fields. Matrices give the ability to analyze data in diffrent ways, because matrices allow to be combined in many ways. A matrix is a rectangular representation of a set of numbers. Other variables are allowed to be substituted in. A matrix follows the format of m x n , which is m rows and n columns. MULTIPLICATION OF MATRICES IS NOT COMMUTATIVE.   
+			> Matrices were invented by Arthur Cayley (1821-1895), which he personally thought were useless at the time. Fortunately, for Arthur matrices are used in many fields. Matrices give the ability to analyze data in diffrent ways, because matrices allow to be combined in many ways. A matrix is a rectangular representation of a set of numbers. Other variables are allowed to be substituted in. A matrix follows the format of m x n , which is m rows and n columns. MULTIPLICATION OF MATRICES IS NOT COMMUTATIVE.
 		(Chapter 8: Graph Theory {Introduction, Fundamental Ideas of Graphs})
-			> A graph, is a collection of points called edges that form vertices in space. 
-		(Chapter 9: Number Theory {Divisibility, Primes, Modular Arithemtic}) 
-			> Number theory, is the study of the properties of all natural numbers. 
+			> A graph, is a collection of points called edges that form vertices in space.
+		(Chapter 9: Number Theory {Divisibility, Primes, Modular Arithemtic})
+			> Number theory, is the study of the properties of all natural numbers.
 		(Chapter 10: Cryptography ...)
-		(Chapter 11: Boolean Algebra ...) 
+		(Chapter 11: Boolean Algebra ...)
 
 * Computation
 	> Mathematica
@@ -37,7 +37,7 @@ Discrete Math Project
 * Data-Visualization
 	> ListPlot
 	> ListLinePlot
-	> LinePlot	
+	> LinePlot
 	> Graph <-> {Adjency Matrix, ... Matrix}
     	> ArrayPlot
 	> MatrixPlot
@@ -47,7 +47,8 @@ Discrete Math Project
 	> Modern Cryptography @ McGraw Hill
 	> Hands-On: Mathematica
 	> Demystfying: Discrete Mathematics
-	> { online: [ ...wolfram documentation,			https://reference.wolfram.com/language/guide/PrimeNumbers.html,
+	> { online: [ ...wolfram documentation,
+								https://reference.wolfram.com/language/guide/PrimeNumbers.html,
 								https://reference.wolfram.com/language/guide/Cryptography.html,
 								https://reference.wolfram.com/language/guide/DataVisualization.html,
 								https://reference.wolfram.com/language/guide/GraphProgramming.html,

@@ -1,0 +1,53 @@
+#	|Abstract 						#
+#	* Short,self-contained description of the project. 	#
+#								#
+
+#	|Introduction
+#	* EXPLAIN THE GOALS OF YOUR PROJECT			#
+#	* Indicate why this topic is exciting and useful	#
+#	* Introduce your project and outline importance
+# * Why is this topic useful/exciting             	#
+
+  Goals in the project is to demonstrate the importance of numbers in the real world.
+  Example being how conglomerate enterprises rely heavly on the security of their products.
+  Consumers who purchase services from companies need to trust that their account information is secure.
+  Companies built a reputation on the integrity and credibility of their services, making cryptography
+  important to the eco-system of trading goods and services.
+  Since, cryptography has become exclusive to the realm of digital systems by generating different formats of
+  verifying information; to checksums, qr-codes, and identicons.
+
+
+#	|Background						#
+#	* Background information required to understand 	#
+
+  As all scientific topics, a plethora of vocabulary words must be known to be versitle in the science.
+  Cryptography has a rich history; from the humble origin of "shifting" ciphers of Julius Ceaser to
+  the modern AES algorithm.
+  Define, HASH ____________________________________
+  Define, CHECKSUMS__________________________________
+  Define, Symmetric ____________________________________
+  Define, Asymmetric ____________________________________
+  Define, Public Key ____________________________________
+  Define, Private Key __________________________________
+  Define, QR-Code ______________________________________
+  Define, Identicon ___________________________________
+  Define, ByteArray ___________________________________
+  Define, Number Theory ________________________________
+
+#	|Main Section						                      #
+#	* What did you learn ? 					              #
+#	* How does this have to do with your major		#
+#	* Connect it to the real world or community		#
+# 	* Do you intend to present this project to an audience  #
+#	* References ? 						#
+#	* REAL-LIFE EXAMPLES must be included			#
+
+  The Wolfram Language's extensive base of state-of-the-art algorithms and
+  efficient handling of very long integers make it uniquely suited to both research and 
+  implementation of cryptographic number theory.
+
+
+#	|Conclusion 						#
+#	* What new knowledge was aquired. 			#
+# 	* Why is your project excitig/useful 			#
+#	* Connections between what you learned so far ... 	#
