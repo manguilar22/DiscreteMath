@@ -24,9 +24,15 @@
   Cryptography has a rich history; from the humble origin of "shifting" ciphers of Julius Ceaser to
   the modern AES algorithm.
   Define, HASH ____________________________________
+	Hashing is the transformation of a digital object into fixed value. A key that represent the original object. Hashing is used to index and retrieve information that may be sensitive in nature and requires validiation. 
+  Define, ENTROPY____________________________________
+	Entropy is the randomness collected by an operating system or application for use in cryptography or other cases requiring random data. 
   Define, CHECKSUMS__________________________________
+
   Define, Symmetric ____________________________________
+	Encryption is a form of computerized cryptography using a singular encryption key to guise an electronic message. Its data conversion uses a mathematical algorithm along with a secret key, which results in the inability to make sense out of a message.
   Define, Asymmetric ____________________________________
+
   Define, Public Key ____________________________________
   Define, Private Key __________________________________
   Define, QR-Code ______________________________________
@@ -45,9 +51,18 @@
   The Wolfram Language's extensive base of state-of-the-art algorithms and
   efficient handling of very long integers make it uniquely suited to both research and 
   implementation of cryptographic number theory.
+	When reading complimentary material for the project based on the nature of the numbers it was intresting to visualize the ideas. As I learned Wolfram Language it became easy and clear to translate the ideas from paper and ink to the digital. 
+	Research in the topic is crucial in today's society rotating around digital devices. Research in this field can be transfered to the benfit of the city by generating validation key for key cards. An large number of business in the El Paso rely on smart authentication cards. 
+	Real life example of supercomputing, 
+	Real life example of crytography, 
 
 
 #	|Conclusion 						#
 #	* What new knowledge was aquired. 			#
 # 	* Why is your project excitig/useful 			#
 #	* Connections between what you learned so far ... 	#
+
+	Knowledge was aquired with respect to the property numbers in realtion to cryptography. 
+	Knowledge was aquired in respect with scientific computing....
+	The project is useful because it uses cloud --  an enterprise solution for resource disapition. Resources , 
+in the context of reducing infrastructure costs and increasing profit.  
