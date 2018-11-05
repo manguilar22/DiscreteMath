@@ -28,17 +28,18 @@
   Define, ENTROPY____________________________________
 	Entropy is the randomness collected by an operating system or application for use in cryptography or other cases requiring random data. 
   Define, CHECKSUMS__________________________________
-
+	Checksums are used as a verification token when downloading applications from the internet. It it helps the consumer by verifiying the original application is untampered. A checksum is a hash of the whole application.
   Define, Symmetric ____________________________________
 	Encryption is a form of computerized cryptography using a singular encryption key to guise an electronic message. Its data conversion uses a mathematical algorithm along with a secret key, which results in the inability to make sense out of a message.
   Define, Asymmetric ____________________________________
-
+	Asymmetric encryption is a method of encryption known as a "third-party" system. Two encrypted objects are generated; a public and a private key. The propetary of the asymmetric lock will be the only one with access to the private key. The public key will be distributed across the web and to whomever it concerns. This with the purpose to offer a form of security for the user. The entity in posession of the private key will be able to verify the legitamitcy of the encrypted object by decrypting. Decrypting is allowed using the private if the original message was signed with the public key. 
   Define, Public Key ____________________________________
   Define, Private Key __________________________________
   Define, QR-Code ______________________________________
   Define, Identicon ___________________________________
   Define, ByteArray ___________________________________
   Define, Number Theory ________________________________
+	Number Theory, is the study of numbers and their properties. 
 
 #	|Main Section						                      #
 #	* What did you learn ? 					              #
@@ -55,7 +56,7 @@
 	Research in the topic is crucial in today's society rotating around digital devices. Research in this field can be transfered to the benfit of the city by generating validation key for key cards. An large number of business in the El Paso rely on smart authentication cards. 
 	Real life example of supercomputing, 
 	Real life example of crytography, 
-
+	Cryptography is important, it is used in all forms of electronic media. We use it in our emails, social media accounts and to verify our passwords. Cryptography also offers an extra layer of security in the Information Technology world. By using public keys on trusted devices and verifying them when they connect to the internet. Using the domain name of the network configured with a provate key to verify the electronic device is allowed to browse the web or communicate with other devices. 
 
 #	|Conclusion 						#
 #	* What new knowledge was aquired. 			#
