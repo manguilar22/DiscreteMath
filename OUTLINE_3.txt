@@ -36,8 +36,13 @@
   Define, Public Key ____________________________________
   Define, Private Key __________________________________
   Define, QR-Code ______________________________________
+	A QR-Code is a machine readable code consisting of an array of black and white squares, typically used for storing urls or other information. This can be accessed with a smartphone. 
   Define, Identicon ___________________________________
+	An identicon is a visual representation of a hash value, usually of an IP address, that serves to identify a user of a computer system as a form of avatar.
   Define, ByteArray ___________________________________
+	Is programming nomenclature for an object which is an array of bytes. Whatever the data-type of the elements wihtin the set -- yields the integer in binary represantion.
+	It is an extremly powerful tool in programming. To be able to compress information and reduce the computer energy consumption.
+  
   Define, Number Theory ________________________________
 	Number Theory, is the study of numbers and their properties. 
 
@@ -50,7 +55,7 @@
 #	* REAL-LIFE EXAMPLES must be included			#
 
   The Wolfram Language's extensive base of state-of-the-art algorithms and
-  efficient handling of very long integers make it uniquely suited to both research and 
+  efficient handling of very long integers make it uniquely suited for both research and 
   implementation of cryptographic number theory.
 	When reading complimentary material for the project based on the nature of the numbers it was intresting to visualize the ideas. As I learned Wolfram Language it became easy and clear to translate the ideas from paper and ink to the digital. 
 	Research in the topic is crucial in today's society rotating around digital devices. Research in this field can be transfered to the benfit of the city by generating validation key for key cards. An large number of business in the El Paso rely on smart authentication cards. 
