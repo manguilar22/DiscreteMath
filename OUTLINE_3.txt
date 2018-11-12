@@ -59,8 +59,9 @@
   implementation of cryptographic number theory.
 	When reading complimentary material for the project based on the nature of the numbers it was intresting to visualize the ideas. As I learned Wolfram Language it became easy and clear to translate the ideas from paper and ink to the digital. 
 	Research in the topic is crucial in today's society rotating around digital devices. Research in this field can be transfered to the benfit of the city by generating validation key for key cards. An large number of business in the El Paso rely on smart authentication cards. 
-	Real life example of supercomputing, 
-	Real life example of crytography, 
+	Real life example of supercomputing, _____________
+	Real life example of crytography, ________________
+	Another real life example is crypto-currencies ___________________________ 
 	Cryptography is important, it is used in all forms of electronic media. We use it in our emails, social media accounts and to verify our passwords. Cryptography also offers an extra layer of security in the Information Technology world. By using public keys on trusted devices and verifying them when they connect to the internet. Using the domain name of the network configured with a provate key to verify the electronic device is allowed to browse the web or communicate with other devices. 
 
 #	|Conclusion 						#
