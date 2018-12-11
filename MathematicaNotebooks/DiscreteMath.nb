@@ -1,0 +1,126 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+TextData[{StyleBox[StyleBox[StyleBox["Cryptosystems",
+FontWeight -> Plain],FontSlant -> Italic],FontFamily -> "Trebuchet MS"],StyleBox[
+RowBox[{StyleBox[StyleBox[StyleBox[" ",FontWeight -> Plain],FontSlant -> Italic],
+FontFamily -> "Trebuchet MS"],StyleBox[StyleBox[StyleBox["&",FontWeight -> Plain],
+FontSlant -> Italic],FontFamily -> "Trebuchet MS"],StyleBox[StyleBox[StyleBox[" ",
+FontWeight -> Plain],FontSlant -> Italic],FontFamily -> "Trebuchet MS"]}]],StyleBox[
+StyleBox[StyleBox["Hash",FontWeight -> Plain],FontSlant -> Italic],FontFamily -> "Trebuchet MS"],StyleBox[
+StyleBox[StyleBox[" ",FontWeight -> Plain],FontSlant -> Italic],FontFamily -> "Trebuchet MS"],StyleBox[
+StyleBox[StyleBox["Functions",FontWeight -> Plain],FontSlant -> Italic],FontFamily -> "Trebuchet MS"]}],
+"Title",ExpressionUUID -> "60b9c713-4bd1-4ccf-b31e-98034571271e",CellFrame -> 0,TextAlignment -> Left,
+TextJustification -> 0],Cell[
+CellGroupData[{Cell[
+TextData[{"Hashing"," ","Algorithms"}],
+"Subsubsection",ExpressionUUID -> "edf4565b-c7b1-4ae2-8c89-547d25c30cfd",FontFamily -> "Times New Roman",
+TextAlignment -> Center,FontVariations -> {Underline -> True},TextJustification -> 0],Cell[
+BoxData[
+RowBox[{RowBox[{"hash"," ","="," ",RowBox[{"{",RowBox[{"\"Adler32\"",",","\"MD2\"",",","\"MD4\"",",","\"MD5\"",",","\"SHA\"",",","\"SHA256\"",",","\"SHA256SHA256\"",",","\"SHA384\"",",","\"SHA512\"",",","\"RIPEMD160\"",",","\"RIPEMD160SHA256\""}],"}"}]}],";"}]],
+"Input",ExpressionUUID -> "2766769a-93e7-4c90-a11a-f2c9badebf4f",CellLabel -> "In[1]:= "]},
+Open],ExpressionUUID -> "e428a1cc-70f3-4492-a363-f90dd4c6a497"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Formats"," ","Available"}],"Subsubsection",ExpressionUUID -> "03065153-0ff9-482d-a0e0-28273ee6b90e",
+FontFamily -> "Times New Roman",TextAlignment -> Center,FontVariations -> {Underline -> True},
+TextJustification -> 0],Cell[
+BoxData[RowBox[{RowBox[{"format"," ","="," ",RowBox[
+{"{",RowBox[{"\"Integer\"",",","\"DecimalString\"",","," ","\"HexString\"",",","\"ByteArray\"",",","\"Base64Encoding\"",",","\"Base36String\""}],"}"}]}],";"}]],
+"Input",ExpressionUUID -> "f9b31167-ddef-48e5-a1f8-ea25a18703ec",CellLabel -> "In[1]:= "],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"Print","[",RowBox[{RowBox[{"Text","[",RowBox[{"Style","[",RowBox[
+{"\"Hashing:\\t\"",",","Black",",","Bold",",","16"}],"]"}],"]"}],",",RowBox[{"Text","[",RowBox[
+{"Style","[",RowBox[{"\"SecretPassword\"",","," ","Red",","," ","Italic",","," ","16"}],"]"}],"]"}]}],"]"}],";"}],"\n",RowBox[
+{RowBox[{"Print","[","\"\\n\"","]"}],";"}],"\n",RowBox[{"For","[",RowBox[{RowBox[
+{"i"," ","=","1"}],","," ",RowBox[{"i","<",RowBox[{"Length","[","hash","]"}]}],",",RowBox[
+{"i","++"}],",","\n",RowBox[{RowBox[{"h"," ",":="," ",RowBox[{"hash","[",RowBox[{"[","i","]"}],"]"}]}],";","\n",RowBox[
+{RowBox[{"Print","[",RowBox[{"\"Hash Algorithm:\\t\"",","," ",RowBox[{"Text","[",RowBox[
+{"Style","[",RowBox[{"h",",","Black",",","Bold"}],"]"}],"]"}]}],"]"}],"\n",RowBox[
+{"Do","[","\n",RowBox[{RowBox[{RowBox[{"f"," ",":="," ",RowBox[{"format","[",RowBox[
+{"[","n","]"}],"]"}]}],";","\n",RowBox[{RowBox[{"Print","[",RowBox[{"\"Hashing Format:\\t\"",",",RowBox[
+{"Text","[",RowBox[{"Style","[",RowBox[{"f",",","Red",",","Italic",",","11"}],"]"}],"]"}]}],"]"}],"\n",RowBox[
+{"Print","[",RowBox[{"Hash","[",RowBox[{"\"SecretPassword\"",",","h",",","f"}],"]"}],"]"}]}]}],"\n",",",RowBox[
+{"{",RowBox[{"n",",",RowBox[{"Length","[","format","]"}]}],"}"}]}],"]"}],"\n",RowBox[
+{"Print","[","\"\\n\"","]"}]}],";"}]}],"\n","]"}]}],"Input",ExpressionUUID -> "3a95f56e-cc47-4ecb-b42f-68b91096e8c7",
+CellLabel -> "In[1]:= "],Cell[
+BoxData[InterpretationBox[RowBox[{InterpretationBox[
+Cell[
+BoxData[FormBox[StyleBox["\"Hashing:\\t\"",GrayLevel[0],Bold,16,StripOnInput -> False],
+TextForm]],"InlineText",ExpressionUUID -> "3ca05694-ac0d-4df8-ba27-f207b1f3a568"],
+Text[Style["Hashing:\t",GrayLevel[0],Bold,16]]],"\[InvisibleSpace]",InterpretationBox[
+Cell[
+BoxData[FormBox[StyleBox["\"SecretPassword\"",RGBColor[1,0,0],Italic,16,StripOnInput -> False],
+TextForm]],"InlineText",ExpressionUUID -> "d17cf0f5-3898-4367-9c3d-bd7be4bc2f30"],
+Text[Style["SecretPassword",RGBColor[1,0,0],Italic,16]]]}],SequenceForm[Text[Style[
+"Hashing:\t",GrayLevel[0],Bold,16]],Text[Style["SecretPassword",RGBColor[1,0,0],Italic,
+16]]],Editable -> False],StandardForm],"Print",ExpressionUUID -> "439bd8c1-6289-44ee-a6a9-3578fc4e8a38"],Cell[
+BoxData[
+"\"\\n\"",StandardForm],"Print",ExpressionUUID -> "a1ad19af-d059-4a5c-ac5b-8426bb5b2430"]},
+Open],ExpressionUUID -> "9f489630-eec7-4426-bffb-be0da7d20a6f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"TableForm","[",RowBox[{RowBox[{"Table","[",RowBox[{RowBox[
+{"Hash","[",RowBox[{"\"SecretPassword\"",",",RowBox[{"hash","[",RowBox[{"[","i","]"}],"]"}],",",RowBox[
+{"format","[",RowBox[{"[","j","]"}],"]"}]}],"]"}],","," ",RowBox[{"{",RowBox[{"i",",","1",",",RowBox[
+{"Length","[","hash","]"}]}],"}"}],",",RowBox[{"{",RowBox[{"j",",","1",",",RowBox[
+{"Length","[","format","]"}]}],"}"}]}],"]"}],","," ","\n",RowBox[{"TableHeadings","\[Rule]",RowBox[
+{"{",RowBox[{"hash",",","format"}],"}"}]}]}],"]"}]],"Input",ExpressionUUID -> "4079512b-be21-4282-9906-5205f1f6dfc6",
+NumberMarks -> False,CellLabel -> "In[13]:= "],Cell[
+BoxData[TagBox[StyleBox[DynamicModuleBox[
+{Set[h$$,1],Set[num$$,71864010],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,
+{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[
+Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[num$$],10,100000000,1000},{Hold[
+h$$],1,0,1}}],Set[Typeset`size$$,Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,
+False],Set[Typeset`skipInitDone$$,True],Set[num$32578$$,0],Set[h$32579$$,0]},DynamicBox[
+Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",{Set[h$$,1],Set[
+num$$,10]}],RuleDelayed["ControllerVariables",{Hold[num$$,num$32578$$,0],Hold[h$$,
+h$32579$$,0]}],RuleDelayed["OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",ListPlot[Table[Hash[i,Part[hash,h$$]],{i,0,num$$}]]],RuleDelayed[
+"Specifications",{{num$$,10,100000000,1000},{h$$,1,0,1}}],RuleDelayed["Options",{}],
+RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],RuleDelayed[DynamicModuleValues,
+{}],RuleDelayed[Deinitialization,None],RuleDelayed[UntrackedVariables,{Typeset`size$$}],
+SynchronousInitialization -> True,RuleDelayed[UnsavedVariables,{Typeset`initDone$$}],
+RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],ExpressionUUID -> "194fc943-4ec4-459b-9178-46478844e01b"],
+"Manipulate",Deployed -> True,StripOnInput -> False],Manipulate`InterpretManipulate[
+1]],StandardForm],"Output",ExpressionUUID -> "91af460e-ae5c-4973-93ec-fedf84c330d4",
+CellLabel -> "Out[11]= "],Cell[
+BoxData[TagBox[StyleBox[DynamicModuleBox[{Set[h$$,
+Null],Set[num$$,487020],Set[Typeset`show$$,True],Set[Typeset`bookmarkList$$,{}],Set[
+Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[Typeset`animvar$$,1],Set[Typeset`name$$,
+"\"untitled\""],Set[Typeset`specs$$,{{{Hold[num$$],100,"Integer Range"},10,1000000,10},{{Hold[
+h$$],"Alder32","Hash Algorithm"},hash}}],Set[Typeset`size$$,Automatic],Set[Typeset`update$$,
+0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,True],Set[num$20641$$,
+0]},DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",
+{Set[h$$,"Alder32"],Set[num$$,100]}],RuleDelayed["ControllerVariables",{Hold[num$$,
+num$20641$$,0]}],RuleDelayed["OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",ListPlot[Table[Hash[i,h$$],{i,10,num$$}]]],RuleDelayed["Specifications",
+{{{num$$,100,"Integer Range"},10,1000000,10},{{h$$,"Alder32","Hash Algorithm"},hash}}],
+RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],
+RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[
+UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[
+UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "2fe7777c-1589-4e5b-80f7-af36e92ac53c"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+ExpressionUUID -> "18fe9c4c-ec27-4f10-8c33-6e79f7c94a22",CellLabel -> "Out[3]= "],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[h$$,"Alder32"],Set[num$$,1000000],Set[Typeset`show$$,
+True],Set[Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[
+Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{{Hold[
+num$$],100,"Integer Range"},10,1000000,10},{{Hold[h$$],"Alder32","Hash Algorithm"},hash}}],Set[
+Typeset`size$$,Automatic],Set[Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[
+Typeset`skipInitDone$$,True],Set[num$20449$$,0]},DynamicBox[Manipulate`ManipulateBoxes[
+1,StandardForm,RuleDelayed["Variables",{Set[h$$,"Alder32"],Set[num$$,100]}],RuleDelayed[
+"ControllerVariables",{Hold[num$$,num$20449$$,0]}],RuleDelayed["OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",ListPlot[Table[Hash[i,h$$],{i,10,num$$}]]],RuleDelayed["Specifications",
+{{{num$$,100,"Integer Range"},10,1000000,10},{{h$$,"Alder32","Hash Algorithm"},hash}}],
+RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],
+RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[
+UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[
+UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "f52bc4fd-3afd-4bdd-b28d-68e522953759"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+ExpressionUUID -> "d6b56050-3fe1-4bf9-b868-d4fe9420d598",CellLabel -> "Out[2]= "]},
+Open],ExpressionUUID -> "debab422-db26-462c-958c-be8e09e73bcf"]},Open],ExpressionUUID -> "7e872da5-a5db-426a-8f66-9046e54d09e5"]},
+Open],ExpressionUUID -> "07b9e15f-06ae-4ec5-97e5-5bf6a8286186"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "11.3 for Wolfram Cloud 1.48 (October 18, 2018)"]
